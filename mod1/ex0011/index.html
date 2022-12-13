@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML5</title>
+    <link rel="shortcut icon" href="img/five.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: black;
+            font-size: xx-large;
+        }
+        h1{
+            color: aquamarine;
+        }
+        h2{
+            color: azure;
+            font-size: xxx-large;
+        }
+        p{
+            color: darkmagenta;
+            font-size: xx-large;
+        }
+        
+    </style>
+</head>
+<body> <!-- Comentário-->
+    
+
+    <h1>Imagem Dinâmica</h1>
+
+    <p>try to open this web site in more differents dispositive or zoom in and zoom out ur browser</p>
+
+    <picture>
+        <source media="(max-width: 1500px)" srcset="img/p.png" type="image/png">
+        <source media="(max-width: 1550px)" srcset="img/m.png" type="image/png">
+        <img src="img/g.png" alt="imagem flexivel">
+    </picture>
+
+    <p> neste caso as imagens têm de seguir a ordem de maior para menor. obs: aula  </p>
+
+    <h1>Audio/Mídia</h1> <!--formato unico-->
+
+    <p>Cool. first step</p>
+    <audio src="midia/girl.mp3" controls autoplay></audio>
+
+    <p>
+        <audio preload="metadata" controls><!-- recomendado-->
+            <source src="midia/girl.mp3" type="audio/mpeg">
+            <source src="midia/girl.mp3" type="audio/ogg">
+            <source src="midia/girl.mp3" type="audio/wav">
+            <p>Infelizmente o seu navegador não consegue reproduzir o audio <a href="midia/girl.mp3" target="_blank" rel="external">clique aqui para download</a></p>
+        
+        </audio>
+    </p>
+
+    <h1>Aula 12</h1>
+    
+    <h2>Vídeo</h2>
+    
+    <p>quando for fazer videos para 3º, não se esqueça dos direitos autorais. mas por ora, fds. <br>
+        <a href="https://handbrake.fr/" target="_blank" rel="external"> app para video</a>
+    </p>
+
+    <p> Inserindo video localmente ou no meu proprio servidor</p>
+
+    <video width="1100" poster="img/pc.jpg" controls>
+        <source src="video/formatado.m4v" type="video/mp4">
+        <source src="video/formatado.m4v" type="video/webm">
+        <source src="video/formatado.m4v" type="video/ogg">
+        <p> Seu navegador n é compaível</p>
+    </video>
+
+    <p>no pdf tem instruções acerca da compatibilade dos formatos para cada navegador. mas põe tudo e fds. <br> dica: é semelhante ao video.</p>
+
+    <h1>Incorporando vídeos do youtube</h1>
+
+    <iframe width="1100" height="619" src="https://www.youtube.com/embed/bSI6z9WxInk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p>chose a video in utube and clik in "sharing"-"incorporing" and copy, no ressentiment.XD <BR> THIS WAY. u will consume trafic of utube, not your. get it??</BR></p>
+</body>
+</html>

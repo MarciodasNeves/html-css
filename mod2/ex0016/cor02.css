@@ -1,0 +1,36 @@
+@charset "UTF-8";
+ /*Comentário*/
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(82, 53, 1, 0.89), #744001);
+}
+
+main{
+
+    background-color:#ffc6a5;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 49px;
+    box-shadow: 5px 5px 10px #360601;
+    border-radius: 5px
+}
+
+h1{
+    color: rgb(58, 8, 3);
+    text-align: center;
+    text-shadow: 1px 1px 1px #734002;
+}
+
+h2{
+    color: #973c1a;
+}
+
+p{
+    text-align: justify;
+    color: black;
+}
