@@ -18,6 +18,9 @@
 }
 
 html, body{
+    background-repeat: repeat repeat-x;
+    background-image:url(imagens/fluor.jpg) ;
+    background-attachment: scroll;
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte1);
@@ -25,6 +28,7 @@ html, body{
 }
 
 header{
+    border-radius: 10px;/*me*/
     background-color: black;
     color: white;
     text-align: center;
@@ -32,13 +36,13 @@ header{
 }
 
 header> h1 {
-    padding-top: 50px;
+    padding-top: 5px;
     font-variant: small-caps;
     font-family: var(--fonte2);
 }
 
 header > p{
-    padding-bottom:50px;
+    /*padding-bottom:50px; curso*/
 
 }
 
@@ -52,10 +56,15 @@ a:hover{
     text-decoration: underline;
 }
 
+#geral{/*me*/
+    padding: 0px;
+    margin: 15px 50px 15px 50px;
+}
 
 section{
+    border-radius: 10px;/*eu*/
     padding-top: 10vh;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     padding-left: 35px;
     line-height: 2em;
     font-family: var(--fonte3);
@@ -102,4 +111,5 @@ footer{
     color: white;
     text-align: center;
     padding-bottom: 10px;
+    border-radius: 10px; /*eu*/
 }
