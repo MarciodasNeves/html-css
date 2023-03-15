@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Grande</title>
+
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        table{
+            width: 500px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead{
+            background-color: gray;
+            color: moccasin;
+        }
+        .num{
+            text-align: right ;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1> Uso de tabelas em grandes Escalas</h1>
+
+    <!--
+        Anatomia de tabelas grandes: 
+        table
+            thead
+                tr, td, th
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th
+    -->
+    
+    <table>
+
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th> População</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">15 569 584</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">15 568 964</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">15 2356 968</td>
+            </tr>
+
+            <tr>
+                <td>Baia</td>
+                <td class="num">16 598 598</td>
+            </tr>
+
+            <tr>
+                <td>Paranaué</td>
+                <td class="num">16 258 968</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande Sul</td>
+                <td class="num">16 985 741</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">115 698 875</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="num">15 896 985</td>
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">12 547 963</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">15 963 852</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">15 478 963</td>
+            </tr>
+
+            <tr>
+                <td>Bóias</td>
+                <td class="num">14 896 354</td>
+            </tr>
+
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">18 879 365</td>
+            </tr>
+
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">15 693 218</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">14 879 654</td>
+            </tr>
+
+            <tr>
+                <td>Destrito Federeal</td>
+                <td class="num">16 896 325</td>
+            </tr>
+
+            <tr>
+                <td>Preguiça</td>
+                <td class="num">cansei</td>
+            </tr>
+
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <th>Total de habitantes </th>
+                <td>00000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
