@@ -7,23 +7,32 @@
     <title>Desafios 01</title>
 
     <style>
-
-        body{
+         body{
+            
             margin: 10px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
 
-        table{
-            padding: 10px;
+        body > table{
+            margin: auto;
+        }
+        h1{
             text-align: center;
-            width: 300px;
-            height: 300px;
+        }
+
+        table{
+            width: 400px;
+            height: 100px;
             border-collapse: separate;
         }
 
         td{
-            border: 1px solid black;
-            padding: 10px;
+            
+            text-align: center;
+            font-weight: bold;
+            border: 2px solid black;
+            padding: 20px;
+            
         }
 
     </style>
@@ -35,33 +44,72 @@
     <table>
 
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
+            <td class="a" >1</td>
+            <td class="a" >2</td>
+            <td rowspan="2n" class="a" >3</td>
+            <td class="a">4</td>
 
         </tr>
 
         <tr>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-            <td>8</td>
+            <td class="a" >5</td>
+            <td class="a" >6</td>
+            <td class="a" >7</td>
         </tr>
 
         <tr>
-            <td>9</td>
-            <td>10</td>
-            <td>11</td>
-            <td>12</td>
+            <td colspan="3n" class="a" >8</td>
+            <td class="a" >9</td>
         </tr>
 
         <tr>
-            <td>13</td>
-            <td>14</td>
-            <td>15</td>
+            <td rowspan="2n" class="a" >10</td>
+            <td colspan="2n" class="a" >11</td>
+            <td class="a" >12</td>
+        </tr>
+
+        <tr>
+            <td class="a" >13</td>
+            <td class="a" >14</td>
+            <td class="a" >15</td>
         </tr>
     </table>
+
     
+    <table style="margin-top: 50px;">
+
+        <tr>
+            <td colspan="4n" class="a" >A</td>
+            <td rowspan="4n" class="a" >B</td>
+
+        <tr><td rowspan="4n" class="a" >C</td>
+            <td class="a" >D</td>
+            <td class="a" >E</td>
+            <td class="a" >F</td>
+        
+        </tr>
+            
+            
+        </tr>
+        <tr>
+            <td class="a" >G</td>
+            <td class="a" >H</td>
+            <td class="a" >I</td>
+            
+        </tr>
+
+        <tr>
+            <td class="a" >J</td>
+            <td class="a" >L</td>
+            <td class="a" >M</td>
+            
+        </tr>
+
+        <TR>
+            
+            <td colspan="4" class="a" >N</td>
+        </TR>
+
+    </table>
 </body>
 </html>

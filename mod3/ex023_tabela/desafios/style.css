@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+
+.a:hover{
+    filter: drop-shadow(0 0 1.5px aqua);
+    background: aqua;
+    transition-duration: 0.5s;
+}
