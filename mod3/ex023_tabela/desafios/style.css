@@ -1,8 +1,42 @@
 @charset "UTF-8";
 
+@keyframes a{
+    50% {background-color: rgb(132, 224, 27);}
+}
+.a{
+    background: #e3e5e4b1;
+    filter: brightness(80%);
+}
+
+.b{
+    background: #e3e5e4b1;
+    filter: brightness(80%);
+}
+
+.unkow{
+    background: #e3e5e4b1;
+    filter: brightness(80%);
+}
+
 
 .a:hover{
-    filter: drop-shadow(0 0 1.5px aqua);
+    
     background: aqua;
+    animation: a 4s infinite;
     transition-duration: 0.5s;
+    filter: drop-shadow(0 0 1.5px aqua);
+}
+
+.b:hover{
+
+    background: #a01371;
+    filter: drop-shadow(0 0 1.5px  #451836cd);
+    transition-duration: 0.2s;
+}
+
+
+.unkow:hover{
+    background: #58ea4d;
+    filter: drop-shadow(0 0 1.5px  #154611);
+    transition-duration: 0.2s;
 }
